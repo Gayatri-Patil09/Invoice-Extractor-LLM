@@ -1,0 +1,22 @@
+Agenda
+
+1. Multilanguage invoice Extractor app demo
+2. create environment
+3. requirements.txt
+4. step by step building app
+5. additional improvements
+
+steps:
+1. to create venv in cmd prompt write
+        conda create -p venv python==3.13 -y
+
+2. conda activate venv/
+
+3. requirements.txt
+    streamlit, google-generativeai, python-dotenv, langchain, pyPDF2, chromadb
+
+4. .env file
+    GOOGLE_API_KEY=" "
+
+5. to run use
+        python -m streamlit run app.py
